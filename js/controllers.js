@@ -41,6 +41,6 @@ app
   		$location.path( "#/historia" );
 	};
 }])
-.controller('historiaCtrl', ['$scope', function ($scope) {
-	
+.controller('historiaCtrl', ['$scope', 'historias', function ($scope,historias) {
+	$scope.historias = historias.getHistoria;
 }]);

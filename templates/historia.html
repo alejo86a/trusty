@@ -19,22 +19,13 @@
 
         <!-- Listar usuarios -->
         <div class="row">
-            <div class="col-md-3 portfolio-item" ng-repeat="u in usuarios">
+            <div class="col-md-3 portfolio-item">
                 <table class="table">
-					<th>
-						<tr>fff</tr>
-						<tr></tr>
-					</th>
-					<th>
-						<tr>ff</tr>
-						<tr>ff</tr>
-					</th>
-					<th>
-						<tr>ff</tr>
-						<tr>fff</tr>
-					</th>
+					<tr ng-repeat="h in historias">
+						<td>{{h.nombre}}</td>
+						<td>{{h.cedula}}</td>
+					</tr>
 				</table>
-				6fubg7nij
             </div>
         <!-- /Listar usuarios -->
 
@@ -43,29 +34,7 @@
         <!-- Pagination -->
         <div class="row text-center">
             <div class="col-lg-12">
-                <ul class="pagination">
-                    <li>
-                        <a href="#">&laquo;</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">&raquo;</a>
-                    </li>
-                </ul>
+                
             </div>
         </div>
         <!-- /.row -->
