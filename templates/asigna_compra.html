@@ -1,0 +1,50 @@
+    <!-- Page Content -->
+    <div class="container" ng-controller="VentasCtrl">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header"> 
+                    <img ng-src="{{usuario.imgUrl}}" align="left" width="225" height="225" class="img-responsive">   
+                    <div class="info-usuario">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tamano-info-usuario">Nombre: {{usuario.nombre}}</span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tamano-info-usuario">Numero de documento: {{usuario.cedula}}</span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tamano-info-usuario">Lugar de residencia: {{usuario.pais}}</span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tamano-info-usuario">Edad: {{usuario.edad}}</span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tamano-info-usuario">Codigo trusty: {{usuario.codigo}}</span><br>
+                    </div>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Formulario -->
+        <div class="row">
+            <div class="form">
+            <br><br>    
+                <form>
+                    <div class="form-group">
+                        <label for="fecha">Fecha tentativa de pago: </label>
+                        <input type="date" class="form-control" id="fecha_tentativa mostrar-info">
+                        <br>
+                        <label for="valor">Valor: </label>
+                        <br>
+                        <input type="text" name="valor" class="form-control mostrar-info" placeholder="$$$">
+                    </div>
+                    <div class="form-group">
+                        <label for="fecha">Fecha de cobro: </label>
+                        <input type="date" class="form-control mostrar-info" id="fecha_cobro" >
+                        <br>
+                        <label for="Comentarios">Comentarios: </label>
+                        <br>
+                        <textarea name="comentarios" class="form-control mostrar-info" placeholder="comentarios"></textarea>
+                    </div>
+                    <center><button type="Guardar" ng-click="go('#/asigna_compra')" class="btn btn-default" data-modal="modal-13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guardar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></center>
+                </form>
+            </div>
+        <!-- /Formulario -->
+
+        <hr>
+
+        <hr>
+    </div>

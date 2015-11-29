@@ -1,0 +1,47 @@
+/*!
+ * Start Bootstrap - 4 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+    width: 180px;
+    height: 180px;
+
+    -webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+.user-image{
+    -webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+.input-group{
+	width: 93%;
+}
+.mostrar-info{
+	min-width: 70%;
+}
+.form-group{
+	float: left;
+	width: 50%;
+}
+
+.info-usuario{
+	width: 60%;
+	margin-left: 10%;
+	padding-left: 100px;
+	size: 10px;
+}
+.tamano-info-usuario{
+	font-size: 25px;
+}
+footer {
+    margin: 50px 0;
+}
